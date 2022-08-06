@@ -1,4 +1,4 @@
-package JavaEx.aula2;
+package aula.aula2;
 /**
  * CalculaArea
  */

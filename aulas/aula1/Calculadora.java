@@ -1,4 +1,4 @@
-package JavaEx.aula1;
+package aula.aula1;
 
 public class Calculadora {
     /**
