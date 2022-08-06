@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 /**
- * MediaTemp
+ * MediaTemp Este programa irá funcionar corretamente quando os valores de média inserida forem diferentes
  */
 public class MediaTemp{
 
@@ -31,6 +31,7 @@ public class MediaTemp{
         System.out.print("As temperaturas acima da média são: ");
         temperature.stream().filter(t -> t > average).forEach(t -> System.out.print(t + " "));
         System.out.print("\n Os meses em que a temperatura foi acima da média são: ");
+        final int i = 0;
         temperature.stream().filter(t -> t > average).forEach(t -> MediaTemp.mes(temperature.indexOf(t)));       
     }
     public static void mes(int x) {
