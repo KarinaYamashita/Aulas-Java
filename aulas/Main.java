@@ -1,12 +1,12 @@
-package aula;
+package aulas;
 
 import java.util.Calendar;
 import java.util.GregorianCalendar;
 
-import aula.aula1.Calculadora;
-import aula.aula1.Emprestimo;
-import aula.aula1.Mensagem;
-import aula.aula2.CalculaArea;
+import aulas.aula1.Calculadora;
+import aulas.aula1.Emprestimo;
+import aulas.aula1.Mensagem;
+import aulas.aula2.CalculaArea;
 
 public class Main {
     /**

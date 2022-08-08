@@ -1,4 +1,4 @@
-package aula.aula1;
+package aulas.aula1;
 
 public class Emprestimo {
 

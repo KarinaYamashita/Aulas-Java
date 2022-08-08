@@ -9,13 +9,13 @@ import java.util.Scanner;
 public class MediaTemp{
 
     public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
+        Scanner scanr = new Scanner(System.in);
         List<Double> temperature = new ArrayList<Double>();    
         
         // Realiza a entrada das temperaturas
         for (int index = 0; index < 6; index++) {
             System.out.print("Digite a temperatura " + (index+1) + ": ");
-            double temp = scan.nextDouble();
+            double temp = scanr.nextDouble();
             temperature.add(temp);
         }
         System.out.println("***********************");
@@ -31,7 +31,6 @@ public class MediaTemp{
         System.out.print("As temperaturas acima da média são: ");
         temperature.stream().filter(t -> t > average).forEach(t -> System.out.print(t + " "));
         System.out.print("\n Os meses em que a temperatura foi acima da média são: ");
-        final int i = 0;
         temperature.stream().filter(t -> t > average).forEach(t -> MediaTemp.mes(temperature.indexOf(t)));       
     }
     public static void mes(int x) {

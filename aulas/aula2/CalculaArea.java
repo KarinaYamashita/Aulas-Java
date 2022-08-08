@@ -1,4 +1,4 @@
-package aula.aula2;
+package aulas.aula2;
 /**
  * CalculaArea
  */

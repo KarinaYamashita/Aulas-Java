@@ -9,4 +9,4 @@ Neste repositório é possível encontrar os seguintes exercícios:
     - Retângulo,
     - Losango e
     - Trapézio.
-
+- Verificação da media de temperaturas do primeiro semestre do ano.
